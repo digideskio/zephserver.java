@@ -28,6 +28,7 @@ public class SimpleServer {
 				try {
 					// Start up a listener thread for it
 					new Handler(recv).start();
+					
 				}
 				catch (IOException e) {
 					System.err.println("Failed to handle connection. " + e);
